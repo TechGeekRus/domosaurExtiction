@@ -23,3 +23,9 @@ firstImg.addEventListener('click', function(){
  })
 // 3
 
+// 4
+const row = document.querySelector('toggle')
+button.addEventListener('click', function(){
+    row.style.backgroundColor = 'orange'
+})
+
